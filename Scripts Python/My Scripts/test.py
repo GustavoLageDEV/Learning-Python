@@ -19,3 +19,9 @@ class Line():
         x2,y2 = self.coor2
         #return m = (y2 - y1)/(x2 - x1)
         return (y2-y1)/(x2-x1)
+    
+
+p2 = 25
+p1 = Line(3,8)
+
+print("{}".format(p1))
